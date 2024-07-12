@@ -1,0 +1,124 @@
+.container {
+    background-image: url(regisback.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use 100vh for full height */
+    position: relative;
+}
+
+.registration-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 6px inset #ccc;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    color: #000000;
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Centering the text inside the form */
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #888;
+    font-size: 20px;
+}
+
+.input-field input {
+    width: calc(100% - 20px);
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.field-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #888;
+    font-size: 20px;
+}
+
+.input-group {
+    padding: 2px;
+    border-radius: 7px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-weight: 900;
+    color: #4d4a4a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.w3-margin {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.signup, .login {
+    font-size: 22px;
+    background-color: #080808;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons .signup, .buttons .login {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.buttons .signup {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.buttons .signup:hover {
+    background-color: #0056b3;
+}
+
+.buttons .login {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.buttons .login:hover {
+    background-color: #5a6268;
+}

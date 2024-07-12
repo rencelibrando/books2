@@ -1,0 +1,129 @@
+/* Header */
+header.w3-container.w3-center {
+  padding: 150px 20px;
+  background-image: url('judithbg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 85%;
+  background-color: black;
+  border-bottom-left-radius: 1rem ;
+  border-bottom-right-radius: 1rem;
+  border-bottom: 1px solid black;
+  box-shadow:20px 20px 20px rgb(165, 162, 162)
+
+}
+  
+h1.w3-margin.w3-border-black.w3-jumbo {
+  font-weight: 900;
+  font-size: 200%;
+}
+  
+p.w3-xlarge {
+  font-weight: 700;
+  font-size: medium;
+}
+  
+p.w3-xlarge.w3-opacity-min {
+  font-size: large;
+}
+  
+button.w3-button.w3-red.w3-padding-large.w3-large.w3-margin-top {
+  font-size: large;
+}
+
+.w3-twothird h1{
+  font-size: 50px;
+}
+
+.w3-twothird p{
+  font-size: medium;
+}
+
+.w3-xlarge-w3-text-white{
+  font-weight: bolder;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1.w3-twothird{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.icon-bigger{
+  width: 500px;
+}
+
+.w3-margin{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.logo{
+  width: 50px;
+  opacity: inherit;
+}
+.image-container{
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row;
+  padding-right: 40px;
+  padding-left: 40px; 
+  
+}
+.fil-size{
+  width: 250px;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 4px;
+  max-width: 100%; /* Ensures the image does not exceed its container */
+  height: auto;
+  
+}
+.math-size{
+  width: 250px;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 4px;
+  max-width: 100%; /* Ensures the image does not exceed its container */
+  height: auto;
+}
+.purcom-size{
+  width: 250px;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 4px;
+  max-width: 100%; /* Ensures the image does not exceed its container */
+  height: auto;
+}
+
+.dbmt-size{
+  width: 250px;
+  border-color: black;
+  border-width: 8px;
+  border-style: solid;
+  padding: 2px;
+  border-radius: 4px;
+  max-width: 100%; /* Ensures the image does not exceed its container */
+  height: auto;
+}
+.title{
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  text-shadow: 0px 10px 10px rgb(17, 17, 17);;
+}
+.receipt-container{
+  background-color: rgb(226, 223, 219);
+}

@@ -1,0 +1,95 @@
+.registration-form{
+    position: absolute;
+    background-color: #f8f8f8; 
+    padding: 40px;
+    border-radius: 15px; 
+    border-style:inset;
+    border-width:6px;
+    box-shadow: 0px 20px 20px rgba(12, 11, 11,);
+    border-color: rgb(0, 0, 0);
+    border-style: inset;
+    font-size: 15px;
+    opacity: 100%;
+    color: rgb(228, 214, 214);
+}
+.container{
+    background-image: url(regisback.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    height: 130vh; 
+    opacity: 1;
+    position: relative;
+}
+.input-field{
+    align-self: center;
+    color: #000;
+    padding: 10px;
+    font-size: medium;
+}
+.input-group{
+    padding: 2px;
+    color: #000;
+    position: relative;
+    border-radius: 7px;
+    font-size: 10px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    font-weight:900;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-style: italic;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+}
+.logo{
+    width: 50px;
+    opacity:inherit;
+}
+.w3-margin{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    justify-content: space-between;
+    margin: 5px;
+}
+.signup{
+    font-size: 22px;
+    background-color: #080808;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    place-items: end;
+}
+.login{
+    font-size: 22px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    place-items: end;
+}
+.buttons{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.signup:hover{
+    background: #ff0000;
+    color: #ffffff;
+}
+.login:hover{
+    background: #ff0000;
+    color: #ffffff;
+}
