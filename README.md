@@ -108,6 +108,3 @@ You will need to have XAMPP installed on your system. XAMPP provides the Apache 
 
 Contributions are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
 
-## License
-
-[Specify your project's license here, e.g., MIT, Apache 2.0, etc.]
